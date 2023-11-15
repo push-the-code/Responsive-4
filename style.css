@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: Sans-Serif;
+}
+body {
+    margin: 0.39px;
+}
+.header {
+    background: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.main-body {
+    display: table;
+}
+.main-body > .left {
+    width: 23%;
+    float: left;
+}
+.main-body > .left > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main-body > .left > ul > li {
+    padding: 8px;
+    background: #33b5e5;
+    margin: 8px 0;
+}
+.main-body > .center {
+    width: 50%;
+    float: left;
+    padding: 10px 40px;
+}
+.main-body > .right {
+    background: #33b5e5;
+    color: #ffffff;
+    width: 23%;
+    float: right;
+    text-align: center;
+    padding: 20px;
+    margin: 8px 0;
+}
+.main-foot {
+    text-align: center;
+    background: #0099cc;
+    color: #ffffff;
+    padding: 30px;
+    font-size: small;
+}
+
+@media screen and (max-width: 770px) {
+    .main-body {
+        display: table;
+    }
+    .main-body > .left {
+        width: 25%;
+        float: left;
+    }
+    .main-body > .left > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .main-body > .left > ul > li {
+        padding: 8px;
+        background: #33b5e5;
+        margin: 8px 0;
+    }
+    .main-body > .center {
+        width: 75%;
+        float: left;
+        padding: 0 40px;
+    }
+    .main-body > .right {
+        background: #33b5e5;
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin: 0 0 8px 0;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .main-body {
+        display: table;
+    }
+    .main-body > .left {
+        width: 100%;
+    }
+    .main-body > .left > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .main-body > .left > ul > li {
+        padding: 8px;
+        background: #33b5e5;
+        margin: 8px 0;
+    }
+    .main-body > .center {
+        width: 100%;
+        padding: 5px;
+        margin: 1px;
+    }
+    .main-body > .right {
+        background: #33b5e5;
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin: 0 0 8px 0;
+    }
+}
