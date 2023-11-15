@@ -13,6 +13,7 @@ body {
 
 .main-body {
     display: table;
+    width: 100%;
 }
 .main-body > .left {
     width: 23%;
@@ -29,7 +30,7 @@ body {
     margin: 8px 0;
 }
 .main-body > .center {
-    width: 50%;
+    width: 54%;
     float: left;
     padding: 10px 40px;
 }
